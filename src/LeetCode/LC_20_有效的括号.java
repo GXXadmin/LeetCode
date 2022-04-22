@@ -8,7 +8,6 @@ public class LC_20_有效的括号 {
         Solution20 solution20 = new Solution20();
         String str = "{]}";
         System.out.println(solution20.isValid(str));
-        System.out.println("dasadasd");
     }
 }
 
