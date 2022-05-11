@@ -8,6 +8,7 @@ public class Main {
         System.out.println(peakElement);
     }
 }
+
 // 爬山，让数字一直往上爬，通过不断二分，一直到达山顶
 class Solution {
     public int findPeakElement(int[] nums) {
