@@ -9,30 +9,10 @@ import java.util.List;
 
 
 // Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
 
-    ListNode() {
-    }
 
-    ListNode(int val) {
-        this.val = val;
-    }
 
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
 
-    @Override
-    public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=\n" + next +
-                '}';
-    }
-}
 
 public class 两数相加 {
     public static void main(String[] args) {
@@ -52,7 +32,7 @@ public class 两数相加 {
 
         两数相加 bbb = new 两数相加();
 
-        System.out.println(bbb.addTwoNumbers(a2,b2));
+        System.out.println(bbb.addTwoNumbers(a2, b2));
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -72,7 +52,7 @@ public class 两数相加 {
             if (l1 != null) {
                 l1 = l1.next;
             }
-            if (l2!= null) {
+            if (l2 != null) {
                 l2 = l2.next;
             }
 
