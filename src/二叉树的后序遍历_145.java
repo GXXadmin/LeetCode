@@ -10,6 +10,7 @@ public class 二叉树的后序遍历_145 {
         TreeNode treeNode1 = new TreeNode(1,null,treeNode2);
         List<Integer> list = solution_145.postorderTraversal(treeNode1);
         list.forEach(System.out::println);
+
     }
 }
 class Solution_145 {
